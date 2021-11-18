@@ -22,9 +22,14 @@ Route::get("/insertar", function(){
      ["Jarron", 15.4, "Japon", "Ceramica", "Ganga"]);
     
 });
-
-Route::get("/insertar", function(){
-    DB::insert('insert into articulos (nombre_articulo, precio, pais_origen, seccion, observaciones) values (?,?,?,?,?)',
-     ["Jarron", 15.4, "Japon", "Ceramica", "Ganga"]);
-    
+/*
+Route::get('/', function () {
+    return view('welcome');
 });
+Route::get('/', function () {
+    return view('welcome');
+});
+Route::get('/', function () {
+    return view('welcome');
+});
+*/
